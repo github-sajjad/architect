@@ -6,7 +6,9 @@
     margin: 0px;
 }
 
-main {}
+main {
+    padding: 0 240px;
+}
 
 /* ---------------------
     call to action styles
@@ -66,7 +68,6 @@ main {}
 
 .cta-banner img {
     padding-top: 50px;
-    width: 1240px;
 
 }
 
@@ -131,7 +132,7 @@ All feature styles
     display: flex;
     align-items: center;
     gap: 54px;
-    padding: 0 240px;
+    margin-bottom: 130px;
 }
 
 .all-feature-info {
@@ -170,9 +171,6 @@ All feature styles
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
-
-    /* Dark 01 */
-
     color: #131313;
 }
 
@@ -201,10 +199,7 @@ All feature styles
     font-weight: 700;
     font-size: 65px;
     line-height: 70px;
-    /* or 108% */
-
     text-align: center;
-
     color: #FFFFFF;
 }
 
@@ -212,9 +207,102 @@ All feature styles
     font-weight: 500;
     font-size: 25px;
     line-height: 40px;
-    /* or 160% */
-
     text-align: center;
-
     color: #FFFFFF;
+}
+
+/* --------------
+     Other facts styles
+     -------------------- */
+.other-facts {
+    margin-bottom: 180px;
+}
+
+.other-facts-title,
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+
+}
+
+.other-facts-description,
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.other-facts-achievement {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+    margin-top: 100px;
+}
+
+.achievement {
+    width: 110px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.achievement-title {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+
+.achievement-detail {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* Sponsor section styles */
+.sponsor {
+    margin-bottom: 130px;
+}
+
+.sponsor-title {
+    text-align: center;
+}
+
+.sponsor-description {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 70px;
+    align-items: center;
+    filter: saturate(0);
+}
+
+/* ----------------------
+    Footer style
+    ------------------- */
+.copyright {
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 38px 0;
+    margin: 0 240px 240px 240px;
+}
+
+.copyright-text {
+    text-align: center;
 }
