@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+main {}
+
+/* ---------------------
+    call to action styles
+------------------------- */
+.container {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 20px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+}
+
+/*----------------
+       CTA styles
+  ----------------*/
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 330px;
+}
+
+.cta-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+
+.cta-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    padding-bottom: 32px;
+}
+
+.cta-banner img {
+    padding-top: 50px;
+    width: 1240px;
+
+}
+
+/* features cta styles */
+.feature-cta-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.feature-cta-image img {
+    height: 200px;
+    width: 200px;
+}
+
+.feature-cta {
+    max-width: 100%;
+    padding: 85px 0 130px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.feature-cta-title {
+    padding-bottom: 24px;
+}
+
+.cta-title-1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.cta-title-2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.cta-title-3 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #FF900E;
+}
+
+.feature-cta-details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 32px;
+}
