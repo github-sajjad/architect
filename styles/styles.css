@@ -362,6 +362,10 @@ All feature styles
         align-items: flex-start;
     }
 
+    .cta-info {
+        padding: 0px 0px;
+    }
+
     .cta-banner img {
         width: 100%;
         padding-top: 50px;
@@ -382,12 +386,23 @@ All feature styles
         padding-left: 10px;
     }
 
+    .feature-experience-img img {
+        width: 340px;
+        padding: 0px;
+    }
+
     .all-feature {
         flex-direction: column-reverse;
     }
 
     .features-name {
         padding: 10px;
+    }
+
+    .feature-experience {
+        width: 200px;
+        padding: 45px;
+
     }
 
     .other-facts-info {
